@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS goods (
     name VARCHAR(255) NOT NULL,
     price NUMERIC(10, 2) NOT NULL,
     description TEXT,
-    image TEXT
+    image VARCHAR
 );
 
 CREATE TABLE IF NOT EXISTS accounts (
